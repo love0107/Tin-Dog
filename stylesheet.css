@@ -1,0 +1,157 @@
+body{
+    font-family: 'Montserrat';
+    font-weight:300;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+    line-height: 1.5;
+}
+ p{
+     color:#8f8f8f;
+ }
+
+
+ /* heading section */
+ .big-heading{
+     font-weight: 900;
+     font-size: 3.5rem;
+     color:white;
+     line-height: 1.5;
+ }
+ .section-heading{
+     font-size: 3rem;
+     line-height:1.5;
+ }
+
+ .container-fluid{
+    padding: 7% 15%;   
+}
+/* Sections */
+.colored-section{
+    background-color:#ff4c68;
+    color:#fff;
+}
+.white-section{
+    background-color: #fff;
+
+
+}
+
+
+/* Navbar */
+.navbar{
+    padding:0 0 4.5rem 0;
+}
+.navbar-brand{
+    font-family:'Ubuntu';
+   font-size:2.3rem;
+   font-weight:300;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-weight: 200;
+}
+.download-button{
+    margin:5% 3% 5% 0;
+
+}
+
+ /* Title section */
+
+
+ #title .container-fluid{
+    padding:3% 15% 7%;
+    text-align: left;
+}
+.title-image{
+   transform: rotate(25deg);
+   width:60%;
+   position:absolute;
+   right:30%;
+   
+   
+}
+/* Feature Box */
+#features{
+    
+    position:relative;
+
+}
+.feature-box{
+  
+    padding:4.5%;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.icon{
+  margin-bottom:1rem;
+  color:#ef8172;
+
+}
+.icon:hover{
+    color:#ff4c68;}
+/* 
+Testimonials section */
+#testimonials
+{
+    background-color:#ef8172;
+   
+   
+    color:#fff;
+}
+.testimonials-image{
+    width: 10%;
+    border-radius:100%;
+    margin:20px;
+}
+.testimonial-text{
+    font-size:3rem;
+    line-height: 1.5;
+}
+/* press section */
+#press{
+    background-color:#ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+/* pricing secction */
+#pricing{
+    padding:100px;
+
+}
+.pricing-colon{
+    padding:3% 2%;
+}
+.pricing-text{
+    font-size:3rem;
+    line-height:1.5;
+}
+/* call of action */
+
+/* fotter section */
+.social-icon{
+    margin:20px 10px;
+}
+.footer-link{
+color:#000;
+}
+
+
+@media(max-width:1028px){
+    #title .container-fluid{
+        text-align: center;
+    }
+.title-image{
+    position: static;
+    transform: rotate(0deg);
+
+}
+
+}
